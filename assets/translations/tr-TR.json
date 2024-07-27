@@ -1,0 +1,77 @@
+{
+    "app": {
+        "title": "Flört Uygulaması"
+    },
+    "core": {
+        "constants": {
+            "model": {
+                "onboardingModels": {
+                    "1": {
+                        "title": "Algoritma",
+                        "description": "Kullanıcılar, botlarla eşleşmemenizi sağlamak için bir süzme sürecinden geçer."
+                    },
+                    "2": {
+                        "title": "Matches",
+                        "description": "Sizi geniş bir benzer ilgi alanları dizisine sahip insanlarla eşleştiriyoruz."
+                    },
+                    "3": {
+                        "title": "Premium",
+                        "description": "Bugün kaydolun ve ilk ay boyunca premium faydaların tadını çıkarın."
+                    }
+                }
+            }
+        },
+        "theme": {
+            "mode": {
+                "system": "Sistem",
+                "light": "Açık",
+                "dark": "Koyu"
+            },
+            "themes": {
+                "main": "Varsayılan"
+            }
+        }
+    },
+    "presentation": {
+        "pages": {
+            "authentication": {
+                "authentication": {
+                    "title": "Devam etmek için kaydolun",
+                    "continueEmailButton": "E-posta ile devam et",
+                    "orDivider": "Veya şununla kaydolun",
+                    "privacyPolicyButton": "Gizlik Politikası",
+                    "termsOfUseButton": "Kullanım Şartları",
+                    "usePhoneNumberButton": "Telefon numarası kullan"
+                },
+                "onboarding": {
+                    "createAccountButton": "Hesap oluştur",
+                    "haveAccount": {
+                        "text": "Zaten hesabınız var mı?",
+                        "button": "Giriş yap"
+                    }
+                }
+            }
+        },
+        "screens": {
+            "verificationCodeAuth": {
+                "preVerificationScreen": {
+                    "title": {
+                        "email": "E-posta Doğrulama",
+                        "phone": "Telefon Doğrulama"
+                    },
+                    "description": {
+                        "email": "Lütfen geçerli bir e-posta adresi girin. Size bir doğrulama kodu göndereceğiz.",
+                        "phone": "Lütfen geçerli telefon numaranızı girin. Size bir doğrulama kodu göndereceğiz."
+                    },
+                    "phoneNumberInput": {
+                        "hint": "Telefon numarası"
+                    },
+                    "emailInput": {
+                        "hint": "E-posta"
+                    },
+                    "continueButton": "Devam et"
+                }
+            }
+        }
+    }
+}

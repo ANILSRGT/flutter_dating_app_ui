@@ -1,0 +1,77 @@
+{
+    "app": {
+        "title": "Dating App"
+    },
+    "core": {
+        "constants": {
+            "model": {
+                "onboardingModels": {
+                    "1": {
+                        "title": "Algorithm",
+                        "description": "Users going through a vetting process to ensure you never match with bots."
+                    },
+                    "2": {
+                        "title": "Matches",
+                        "description": "We match you with people that have a large array of similar interests."
+                    },
+                    "3": {
+                        "title": "Premium",
+                        "description": "Sign up today and enjoy the first month of premium benefits on us."
+                    }
+                }
+            }
+        },
+        "theme": {
+            "mode": {
+                "system": "System",
+                "light": "Light",
+                "dark": "Dark"
+            },
+            "themes": {
+                "main": "Default"
+            }
+        }
+    },
+    "presentation": {
+        "pages": {
+            "authentication": {
+                "authentication": {
+                    "title": "Sign up to continue",
+                    "continueEmailButton": "Continue with Email",
+                    "orDivider": "Or sign up with",
+                    "privacyPolicyButton": "Privacy Policy",
+                    "termsOfUseButton": "Terms of Use",
+                    "usePhoneNumberButton": "Use phone number"
+                },
+                "onboarding": {
+                    "createAccountButton": "Create an account",
+                    "haveAccount": {
+                        "text": "Already have an account?",
+                        "button": "Sign in"
+                    }
+                }
+            }
+        },
+        "screens": {
+            "verificationCodeAuth": {
+                "preVerificationScreen": {
+                    "title": {
+                        "email": "Email Verification",
+                        "phone": "Phone Verification"
+                    },
+                    "description": {
+                        "email": "Please enter your valid email. We will send you a verification code.",
+                        "phone": "Please enter your valid phone number. We will send you a verification code."
+                    },
+                    "phoneNumberInput": {
+                        "hint": "Phone number"
+                    },
+                    "emailInput": {
+                        "hint": "Email"
+                    },
+                    "continueButton": "Continue"
+                }
+            }
+        }
+    }
+}

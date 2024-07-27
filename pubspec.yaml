@@ -1,0 +1,60 @@
+name: dating_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+#* ------------------- Dependencies ------------------- *#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #~ Icons
+  cupertino_icons: ^1.0.8
+  ionicons: ^0.2.2
+
+  #~ UI
+  carousel_slider: ^4.2.1
+
+  #~ State Management
+  flutter_bloc: ^8.1.6
+  mobx: ^2.3.3+2
+  flutter_mobx: ^2.2.1+1
+
+  #~ Dependency Injection
+  get_it: ^7.7.0
+
+  #~ Localization
+  easy_localization: ^3.0.7
+
+  #~ Utils
+  equatable: ^2.0.5
+  flutter_native_splash: ^2.4.1
+  flutter_svg: ^2.0.10+1
+
+  #~ Modules
+  core:
+    path: ./modules/core
+
+#* ------------------- Dev Dependencies ------------------- *#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  very_good_analysis: ^6.0.0
+
+  build_runner: ^2.4.11
+  mobx_codegen: ^2.6.1
+
+#* ------------------- Flutter Config ------------------- *#
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/logos/
+    - assets/images/onboarding/
+    - assets/images/not_found/
